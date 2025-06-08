@@ -1,0 +1,169 @@
+Linux :
+	CLI : Command Line interface
+In 1991, by Linus Torworlds
+
+Linux + Kernel =Operating System
+
+Features :
+	freely available
+	open source
+	security
+	portable
+	multi user capability
+	multitasking
+	file system
+
+Versions :
+	cent OS
+	Linux mint
+	ubuntu
+	fedora
+	debian
+	RHEL
+	amazon
+	google
+
+File system : hierarhical 
+1. /home : stores data form other user
+2. /root : stores data from root user
+3. /etc : all configuration files
+4. /bin : binary data from other user 
+5. /sbin : binary data from root user
+6. /boot : bootable files/directories
+7. /dev : external device drivers
+8. /proc : logical information of the system 
+9. /media :videos ,audios and images
+10. /lib : data library
+
+Linux types of basic commands:
+1. directory commands:
+	1. mkdir: make/create directory
+	Syntax: mkdir dir_name
+	
+	2. ls: list files and directories
+	Syntax: ls
+
+	3. cd :change directory
+	Syntax: cd dir_name	//open directory
+		cd ..		//close directory
+
+	4. pwd : print working directory
+	Syntax: pwd
+
+	5. rmdir: remove /delete directory
+	Syntax: rmdir dir_name
+
+2. file commands :
+	1. touch : create an empty file
+	Syntax: touch filename.txt
+
+	2. cat : 
+	Syntax: cat > filename.txt	//write data in an empty file
+save : ctrl+d	cat >> filename.txt	//write data in an existing file
+		cat filename.txt	//read data from file
+ 
+	3. cp: copy data from one file to another
+	Syntax: cp existingfile.txt copyfile.txt
+
+	4. mv: move data from one file to another
+	Syntax: mv existingfile.txt movefile.txt
+
+	5. rm: remove /delete file
+	Syntax: rm filename.txt
+
+Programming  - > C_programming.txt
+
+3. file content commands and filter commands :
+	1. head: displays first 10 lines from file data
+	Syntax: head filename.txt
+
+	2. tail: displays last 10 lines from file data
+	Syntax: tail filename.txt
+
+	3. tac: displays file data in reverse order
+	Syntax: tac filename.txt
+
+	4. wc: count no.of lines , words and characters
+	Syntax: wc filename.txt
+
+	5. sort: sort file data
+	Syntax: sort filename.txt	//ascending order
+		sort -r filename.txt	//descending order
+
+	6. uniq: displays the repeated words only once.
+	Syntax: sort filename.txt |uniq
+ 
+	7. tr: translates characters from lower case to upper case or vice versa.
+	Syntax: cat filename.txt|tr 'old' 'new'
+
+	8. gzip: create a zip file
+	Syntax: gzip filename.txt
+
+	9. zcat: displays the file data from zip file
+	Syntax: zcat zipfilename
+
+	10. gunzip: de-compress the file
+	Syntax: gunzip filename.txt.gz
+
+
+4. utility commands:
+	1. date: displays the todays day,date and time
+	Syntax: date
+
+	2. df: displays the used and free memory space
+	Syntax: df
+
+	3. who: displays the main user name
+	Syntax: who
+	
+	4. whoami: current user name
+	Syntax: whoami
+	
+	5. arch: displays the syatem's architecture
+	Syntax: arch
+
+	6. cal : dislays the current month's calendar
+	Syntax: cal		//current month
+		cal -m		//particular month
+		cal -y		//particular year
+
+	7. time: command's execution time
+	Syntax: time
+	
+	8. sleep: transfer the terminal on sleep mode
+	Syntax: sleep time-in-sec
+
+	9. man : displays command's manual
+	Syntax: man command_name
+
+	10. history: displays the command's history
+	Syntax: history
+
+	11. clear: clears the terminal screen
+	Syntax: clear
+
+	12. exit: exits the terminal
+	Syntax: exit
+
+
+5. user commands
+6. networking commands
+
+Types of files:
+	1. regular file : data or information
+	2. directory file : files or directories
+	3. symbolic link
+		1. hard link : create backupfile
+		Syntax: ln originalfile backupfile
+
+		2. soft link : create shortcut
+		Syntax: ln -s originalfile shortcutfile
+
+change access permissions:
+VI editor
+Shell scripting
+
+
+
+
+ 
